@@ -1,0 +1,176 @@
+h1{
+  text-align: center;
+    border: 5px solid tomato;
+    font-size: 3em;
+}
+
+h3{
+  color:red;
+}
+#loginInput{
+    margin: auto;
+    border: solid;
+    border-color: tomato;
+}
+.loginInput{
+  width: 205px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#logInButton{
+  width: 51.6px;
+margin: auto;
+margin-bottom: 30px;
+}
+
+#userInfo{
+  height: 200px;
+    border: solid;
+    border-color: tomato;
+}
+#userClick{
+  display: inline;
+}
+#userImg{
+  display: inline;
+  margin-top: 2.5%;
+margin-left: 2.5%;
+height: 80%;
+}
+#userName{
+  display: inline;
+  font-size: 40px;
+}
+#logOutButtonDiv{
+  width: 20%;
+    float: right;
+    height: 100%;
+}
+
+#logOutButton{
+  margin-top: 45%;
+    width: 80%;
+    border-width: 5px;
+    font-size: 20px;
+    border-color: orange;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+
+#starListDiv{
+  width: 25%;
+    float: left;
+    margin-right: 25px;
+    margin-top: 30px;
+    border: solid;
+    border-color: tomato;
+    border-bottom: hidden;
+}
+
+.starName{
+  margin-left: 10%;
+}
+
+.friendDiv{
+  margin-top: 30px;
+  border-bottom: solid;
+    border-color: tomato;
+}
+
+#rightDiv{
+  margin-left: 30%;
+    margin-top: 30px;
+}
+
+.commentInput{
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#friendInfo{
+  width: 70%;
+    display: inline-block;
+}
+
+#friendBlock{
+  border-bottom: dashed;
+    border-color: tomato;
+}
+
+#friendName{
+  display: inline-block;
+}
+
+.star{
+  width: 10%;
+margin-left: 10%;
+}
+
+#friendIcon{
+  width: 25%;
+}
+
+.profileInput{
+  width: 245px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#save{
+  width: 50px;
+    margin: auto;
+}
+
+#profileName{
+  display: inline;
+}
+
+#profileIcon{
+  width: 30%;
+}
+
+@media only screen and (max-width: 580px){
+
+  #starListDiv{
+    width: 100%;
+      float: left;
+      margin-right: 25px;
+      margin-top: 30px;
+      border: solid;
+      border-color: tomato;
+      border-bottom: hidden;
+  }
+  #friendsDiv{
+    display: inline-block;
+    border-top: solid;
+    border-color: tomato;
+      margin-top: 30px;
+      margin-left: 0px;
+          width: 100%;
+  }
+
+  #friendInfo{
+    width: 100%;
+      display: inline-block;
+  }
+
+  #logOutButtonDiv{
+    width: 100%;
+      float: right;
+      height: 70px;
+  }
+
+  #logOutButton{
+    margin-top: 10%;
+      width: 80%;
+      border-width: 5px;
+      font-size: 20px;
+      border-color: orange;
+      border-width: 3px;
+      border-style: dashed;
+  }
+
+}
