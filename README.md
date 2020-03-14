@@ -10,7 +10,7 @@
 
 * On a page view as in Fig. 3, when you double click a comment you have posted, e.g., on the line shown “Time You said: xxx”, a popup box will be shown, asking you to confirm deletion of the post or not (Fig. 4). If you confirm deletion by clicking “OK” button, the comment is deleted; otherwise, if
 you click “Cancel”, the page view remains as above.
-![image of delete comment](./image/delete.png)
+![image of delete comment](./images/delete.png)
 
 * Within the posts division on the right, there is a star icon following the name of the friend in each post. There are two versions of the star icon: one to display when the friend is not starred (e.g., the star icon following the first name in page), and one to display when the friend is starred (e.g., the star icon following the second name in page). When you click on a star icon, it will be switching between the two versions, indicating switching between starred and un-starred states of the respective friend. For example, after you click the first start icon on the above page, the page view becomes one in the following page. The list on the left shows the names of starred friends, and should be updated accordingly. 
 ![image of star](./images/star.png)
